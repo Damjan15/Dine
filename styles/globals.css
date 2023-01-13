@@ -10,3 +10,17 @@
         @apply font-league;
     }
 }
+
+@layer components {
+    .hero {
+        @apply bg-[url('/images/homepage/hero-bg-mobile.jpg')] bg-no-repeat bg-cover h-[748px] md:bg-[url('/images/homepage/hero-bg-tablet.jpg')] md:h-[992px] xl:bg-[url('/images/homepage/hero-bg-desktop.jpg')] xl:h-[820px];
+    }
+
+    .btn-dark {
+        @apply block h-16 border border-white text-white uppercase font-semibold text-[17px] leading-4 tracking-[2.5px] transition-colors duration-300 ease-in-out hover:bg-white hover:text-mirage
+    }
+
+    .btn-sm {
+        @apply w-[245px]
+    }
+}
