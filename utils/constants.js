@@ -24,21 +24,24 @@ export const highlights = [
         mobileThumbnail: salmonMobile,
         largeThumbnail: salmonLarge,
         title: "Seared Salmon Fillet",
-        description: "Our locally sourced salmon served with a refreshing buckwheat summer salad."
+        description: "Our locally sourced salmon served with a refreshing buckwheat summer salad.",
+        isLast: false,
     },
     {
         id: "filet-mignon",
         mobileThumbnail: beefMobile,
         largeThumbnail: beefLarge,
         title: "Rosemary Filet Mignon",
-        description: "Our prime beef served to your taste with a delicious choice of seasonal sides."
+        description: "Our prime beef served to your taste with a delicious choice of seasonal sides.",
+        isLast: false,
     },
     {
         id: "chocolate-mousse",
         mobileThumbnail: chocolateMobile,
         largeThumbnail: chocolateLarge,
         title: "Summer Fruit Chocolate Mousse",
-        description: "Creamy mousse combined with summer fruits and dark chocolate shavings."
+        description: "Creamy mousse combined with summer fruits and dark chocolate shavings.",
+        isLast: true
 
     }
 ]
