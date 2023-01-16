@@ -69,3 +69,33 @@ export const slides = [
         description: "Are you looking to have a larger social event? No problem! We’re more than happy to cater for big parties. We’ll work with you to make your event a hit with everyone."
     },
 ]
+
+export const footerAddresses = [
+    {
+        id: "address",
+        title: "Marthwaite, Sedbergh"
+    },
+    {
+        id: "cumbria",
+        title: "Cumbria"
+    },
+    {
+        id: "phone",
+        title: "+00 44 123 4567"
+    }
+]
+
+export const footerOpenTimes = [
+    {
+        id: "open-times",
+        title: "Open Times"
+    },
+    {
+        id: "weekday-open-time",
+        title: "Mon - Fri: 09:00 AM - 10:00 PM"
+    },
+    {
+        id: "weekend-open-time",
+        title: "SAT - SUN: 09:00 AM - 11:30 PM"
+    }
+]
