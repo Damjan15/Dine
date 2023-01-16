@@ -4,6 +4,7 @@ import Enjoy from "./home/Enjoy";
 import Card from "./home/Card";
 import Highlights from "./home/Highlights";
 import Highlight from "./home/Highlight";
+import LocallySourced from "./home/LocallySourced";
 import Slides from "./home/Slides";
 import Slide from "./home/Slide";
 import Booking from "./home/Booking";
@@ -23,6 +24,7 @@ export {
     Card,
     Highlights,
     Highlight,
+    LocallySourced,
     Slides,
     Slide,
     Booking,

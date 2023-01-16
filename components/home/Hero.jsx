@@ -18,7 +18,8 @@ const Hero = () => {
               Eat the freshest produce from the comfort of our farmhouse.
             </p>
 
-            <button className="btn-dark btn-sm">Book a table</button>
+            
+            <button className="btn-dark btn-sm mx-auto lg:mx-0">Book a table</button>
           </div>
         </div>
       </div>

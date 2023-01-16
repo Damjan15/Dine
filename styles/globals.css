@@ -23,4 +23,8 @@
     .btn-sm {
         @apply w-[245px]
     }
+
+    .booking-bg {
+        @apply bg-[url('/images/booking/hero-bg-mobile.jpg')] bg-no-repeat bg-cover h-[328px] md:bg-[url('/images/booking/hero-bg-tablet.jpg')] md:h-[400px] xl:bg-[url('/images/booking/hero-bg-desktop.jpg')] xl:h-[250px];
+    }
 }
