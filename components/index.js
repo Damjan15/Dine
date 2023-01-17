@@ -12,6 +12,7 @@ import Booking from "./home/Booking";
 // Reservation Components
 import ReservationsHero from "./reservations/ReservationsHero";
 import ReservationForm from "./reservations/ReservationForm";
+import ReservationSection from "./reservations/ReservationSection";
 
 // Shared Components
 import Divider from "./shared/Divider";
@@ -30,6 +31,7 @@ export {
     Booking,
     ReservationsHero,
     ReservationForm,
+    ReservationSection,
     Divider,
     Footer
 }
