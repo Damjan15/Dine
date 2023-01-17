@@ -1,4 +1,4 @@
-import { Booking, Enjoy, Hero, Highlights, LocallySourced } from "@/components";
+import { Booking, Enjoy, Gathering, Hero, Highlights, LocallySourced } from "@/components";
 
 export default function Home() {
   return (
@@ -7,6 +7,7 @@ export default function Home() {
       <Enjoy />
       <LocallySourced />
       <Highlights />
+      <Gathering />
       <Booking />
     </>
   )

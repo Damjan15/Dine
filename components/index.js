@@ -5,9 +5,8 @@ import Card from "./home/Card";
 import Highlights from "./home/Highlights";
 import Highlight from "./home/Highlight";
 import LocallySourced from "./home/LocallySourced";
-import Slides from "./home/Slides";
-import Slide from "./home/Slide";
 import Booking from "./home/Booking";
+import Gathering from "./home/Gathering";
 
 // Reservation Components
 import ReservationsHero from "./reservations/ReservationsHero";
@@ -26,9 +25,8 @@ export {
     Highlights,
     Highlight,
     LocallySourced,
-    Slides,
-    Slide,
     Booking,
+    Gathering,
     ReservationsHero,
     ReservationForm,
     ReservationSection,
