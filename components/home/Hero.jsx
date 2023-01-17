@@ -1,7 +1,10 @@
 import Image from "next/image";
 import logo from "../../public/images/logo.svg";
+import { useRouter } from "next/router"
 
 const Hero = () => {
+  const router = useRouter();
+
   return (
     <header className="hero flex flex-col justify-center xl:justify-start">
       <div className="max-w-7xl mx-auto xl:ml-[180px] xl:h-full">
@@ -19,7 +22,7 @@ const Hero = () => {
             </p>
 
             
-            <button className="btn-dark btn-sm mx-auto lg:mx-0">Book a table</button>
+            <button className="btn-dark btn-sm mx-auto lg:mx-0" onClick={() => router.push('/reservations')}>Book a table</button>
           </div>
         </div>
       </div>

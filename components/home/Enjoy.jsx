@@ -17,7 +17,7 @@ const Enjoy = () => {
             <div className="py-24 flex flex-col items-center justify-center w-full -mt-[150px] xl:flex-row xl:justify-around">
               <Image src={enjoyableMobile} alt="enjoyable-mobile" className="block shadow-2xl md:hidden" />
               <Image src={enjoyableTablet} alt="enjoyable-mobile" className="hidden shadow-2xl md:block xl:hidden" />
-              <Image src={enjoyableDesktop} className="hidden xl:block xl:shadow-2xl" />
+              <Image src={enjoyableDesktop} alt="enjoyable-desktop" className="hidden xl:block xl:shadow-2xl" />
 
               <div className="flex items-center justify-between flex-col mt-12 xl:mt-0 xl:items-start">
                 <Divider />

@@ -1,7 +1,6 @@
 // Home Components
 import Hero from "./home/Hero";
 import Enjoy from "./home/Enjoy";
-import Card from "./home/Card";
 import Highlights from "./home/Highlights";
 import Highlight from "./home/Highlight";
 import LocallySourced from "./home/LocallySourced";
@@ -21,7 +20,6 @@ import Footer from "./shared/Footer";
 export {
     Hero,
     Enjoy,
-    Card,
     Highlights,
     Highlight,
     LocallySourced,
